@@ -4,7 +4,7 @@ $ErrorActionPreference = "Stop"
 
 $DEFAULT_VERSION = "2.0.0"
 $DEFAULT_RELEASE_TAG = "celestia"
-$DEFAULT_BASE_URL = "https://github.com/ShakhShirakawa/AnixartEX_TUI-releases/releases/download"
+$DEFAULT_BASE_URL = "https://github.com/shshirakawa/AnixartEX_TUI-releases/releases/download"
 
 $Version = if ($env:ANIXARTEX_VERSION) { $env:ANIXARTEX_VERSION } else { $DEFAULT_VERSION }
 $ReleaseTag = if ($env:ANIXARTEX_RELEASE_TAG) { $env:ANIXARTEX_RELEASE_TAG } else { $DEFAULT_RELEASE_TAG }
